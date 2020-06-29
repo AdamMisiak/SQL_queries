@@ -1,6 +1,6 @@
 # SQL queries
 
-Couple of SQL exercises using PostgreSQL. Database taken from: https://www.postgresqltutorial.com/postgresql-sample-database/. Created only for learning purposes
+Couple of SQL exercises using PostgreSQL. Database taken from: https://www.postgresqltutorial.com/postgresql-sample-database/. Created for learning purposes only.
 
 
 ## Table of contents
