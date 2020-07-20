@@ -6,5 +6,8 @@ CREATE TABLE links(
             last_update DATE
 );
 
-INSERT INTO links (url, name)
-VALUES('https://www.postgresqltutorial.com','PostgreSQL Tutorial');
+INSERT INTO links (url, name, description)
+VALUES
+    ('https://duckduckgo.com/','DuckDuckGo','Privacy & Simplified Search Engine'),
+    ('https://swisscows.com/','Swisscows','Privacy safe WEB-search')
+RETURNING *;
