@@ -15,11 +15,20 @@ Couple of SQL exercises using PostgreSQL. Database taken from: https://www.postg
 To install current version of PostgreSQL for Ubuntu: 
 https://www.postgresql.org/download/linux/ubuntu/
 
-To open Postgres terminal:
+To load sample database:
 ```
-sudo -u postgres psql 
+pg_restore -U [DATABASE OWNER] -d dvdrental ./DB/dvdrental.tar   
 ```
 
+To open Postgres terminal:
+```
+psql [DATABASE NAME] [DATABASE OWNER]
+```
+
+To run SQL file:
+```
+\i [SQL FILE NAME]
+```
 
 ## Contact
 Created by Adam Misiak
